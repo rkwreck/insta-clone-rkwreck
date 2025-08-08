@@ -2,3 +2,13 @@
     width: 100%;   /*now the posted image will always be 100% of the screen/container width */
     object-fit: contain /*just keeping the aspect ratio*/ 
 }
+
+.post_text{
+    font-weight: normal;
+
+}
+
+.post_header{
+    display: flex;  /*puts everything into a row*/ 
+    align-items: center;
+}
