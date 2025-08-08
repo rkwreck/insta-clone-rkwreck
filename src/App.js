@@ -1,5 +1,8 @@
 // import logo from './logo.svg';
+import React from 'react'; 
 import './App.css';
+import Post from './Post'; 
+
 
 function App() {
   return (
@@ -17,7 +20,10 @@ function App() {
 
       <h1>HELLO HELLO THIS IS SO COOL</h1>
 
+      <Post />
       {/*we want posts*/}
+
+
     </div>
   );
 }
