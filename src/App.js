@@ -3,9 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>HELLO HELLO THIS IS SO COOL</h1>
-
+    <div className="app">
+      {/* Instagram header w/ login buttons and profile picture */}
 
       <div className="app_header">
         {/* making the instagram text logo in the header */} 
@@ -15,9 +14,8 @@ function App() {
           alt=""
         />
       </div>
-  
 
-      {/* Instagram header w/ login buttons and profile picture */}
+      <h1>HELLO HELLO THIS IS SO COOL</h1>
 
       {/*we want posts*/}
     </div>

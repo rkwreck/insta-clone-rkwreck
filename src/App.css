@@ -2,7 +2,13 @@
   margin: 0;  /* add this rule so that all our later margins are exactly how we want them, get a completely fresh start*/
   }
 
-  /* this says that no matter how big our container (screen) is, make sure the Instagram word logo stays the same, don't make it looked stretched, etc */ 
+
+  .app {
+    background-color: #fafafa;  /*the header container needs to stay very very light gray */
+
+  }
+
   .app_headerImage {
-    object-fit:contain; 
+    object-fit:contain;    /* this says that no matter how big our container (screen) is, make sure the Instagram word logo stays the same, don't make it looked stretched, etc */ 
+
   }
