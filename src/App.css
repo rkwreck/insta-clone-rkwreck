@@ -4,11 +4,14 @@
 
 
   .app {
-    background-color: #fafafa;  /*the header container needs to stay very very light gray */
-
+    background-color: #fafafa;  /*the header stays white, the stuff below is light gray */
+    height: 100vh; 
   }
 
-  .app_headerImage {
-    object-fit:contain;    /* this says that no matter how big our container (screen) is, make sure the Instagram word logo stays the same, don't make it looked stretched, etc */ 
+  .app_header {
+    background-color: white;
+    padding: 20px;   /*we need padding to make sure the cursive logo doesn't stick to the top of the page */
+    border-bottom: 1px solid lightgray;
+    object-fit: contain;    /* this says that no matter how big our container (screen) is, make sure the Instagram word logo stays the same, don't make it looked stretched, etc */ 
 
   }
