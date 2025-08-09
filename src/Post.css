@@ -1,14 +1,29 @@
+.post {
+    background-color: white; 
+    max-width: 500px; 
+    border: 1px solid lightgray; 
+}
+
 .post_Image{
     width: 100%;   /*now the posted image will always be 100% of the screen/container width */
-    object-fit: contain /*just keeping the aspect ratio*/ 
+    object-fit: contain; /*just keeping the aspect ratio*/ 
+    border-top: 1px solid lightgray; 
+    border-bottom: 1px solid lightgray; 
+    /* don't need side borders because the post class already has colored edges which double for the picture */
 }
 
 .post_text{
     font-weight: normal;
+    padding: 20px; 
 
 }
 
 .post_header{
     display: flex;  /*puts everything into a row*/ 
     align-items: center;
+    padding: 20px 10px; /*this does 20px on horiz, 10px on vert */ 
+}
+
+.post_avatar{
+    margin-right: 10px;  /*puts margin between username and pfp*/ 
 }

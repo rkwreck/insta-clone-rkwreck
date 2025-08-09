@@ -3,6 +3,7 @@ import React from 'react'
 import './Post.css'
 import Avatar from "@mui/material/Avatar"; 
 
+//note: class in react refers to class components, so instead we use className
 function Post() {
   return (
     <div className="post">
