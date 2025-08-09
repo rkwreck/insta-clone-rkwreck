@@ -5,7 +5,6 @@
 
   .app {
     background-color: #fafafa;  /*the header stays white, the stuff below is light gray */
-    height: 100vh; 
   }
 
   .app_header {

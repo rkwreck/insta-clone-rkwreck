@@ -20,9 +20,11 @@ function App() {
 
       <h1>HELLO HELLO THIS IS SO COOL</h1>
 
+      {/*create multilple posts: */}
       <Post />
-      {/*we want posts*/}
-
+      <Post />
+      <Post />
+    
 
     </div>
   );
